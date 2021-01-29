@@ -1,6 +1,9 @@
 ** {
     align-content: space-between;
+    max-width: 100%;
   }
+
+  
   #myName {
     display: inline-block;
     width: 50%;
@@ -36,7 +39,7 @@
     width: 100px;
     margin: 0 auto;
     display: block;
-    padding: 7px;
+    padding: 9px;
   }
   
   .gallery {
@@ -49,6 +52,7 @@
   
   .gallery div {
     width: 30%;
+
   }
   
   .gallery img {
@@ -62,8 +66,8 @@
   footer {
     margin-top: 70px;
     background-color: lavender;
-    height: 50px;
-    padding: 2%;
+    height: 40px;
+    padding: 3%;
   }
   
   footer nav {
@@ -72,3 +76,28 @@
     justify-content: space-evenly;
   }
   
+  /*media queries*/
+  @media screen and (max-width: 800px){
+
+  }
+
+  /*Small queries*/
+  @media screen and (max-width: 500px){
+    #myName{
+      text-align: center;
+      width: 100%;
+      display: block;
+      font-size : 3rem;
+    }
+
+    .sideBar{
+      margin: 0 auto;
+      display: flex;
+      flex-flow: column;
+      text-align: center;
+    }
+    .gallery img {
+      height: 130px
+  
+    }
+  }
