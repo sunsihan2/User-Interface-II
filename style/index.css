@@ -78,7 +78,19 @@
   
   /*media queries*/
   @media screen and (max-width: 800px){
-
+    #myName {
+      display: inline-block;
+      width: 40%;
+      font-size: 2rem;
+      color: pink;
+      margin-left: 7%;
+    }
+    
+    .sideBar {
+      display: inline-block;
+      width: 50%;
+      text-align: right;
+    }
   }
 
   /*Small queries*/
